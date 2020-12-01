@@ -22,5 +22,5 @@ DataBase Normal Form
 (From 1NF to 2NF is quite straightforward, you need to observed the duplicated rows, and use new primary key to partition table)
 
 # 3NF (Third Normal Form) Rules
--Rule 1 - Be in 2NF
--Rule 2 - Has no transitive functional dependencies
+- Rule 1 - Be in 2NF
+- Rule 2 - Has no transitive functional dependencies
