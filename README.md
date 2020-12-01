@@ -29,6 +29,7 @@ DataBase Normal Form
 # 3NF (Third Normal Form) Rules
 - Rule 1 - Be in 2NF
 - Rule 2 - Has no transitive functional dependencies
+(From 2NF to 3NF, it will be very straightfoward cut the table using transitive function. When you find the relationship y = f(x), you can use y to split table)
 
 # BCNF (Boyce-Codd Normal Form)
 - Even when a database is in 3rd Normal Form, still there would be anomalies resulted if it has more than one Cndidate Key
