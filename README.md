@@ -13,3 +13,14 @@ DataBase Normal Form
 - 6NF (Sixth Normal Form)
 
 # 1NF (First Normal Form) Rules
+- Each table cell should contain a single value
+- Each record needs to be unique
+
+# 2NF (Second Normal Form) Rules 
+- Rule 1- Be in 1NF
+- Rule 2- Single Column Primary Key
+(From 1NF to 2NF is quite straightforward, you need to observed the duplicated rows, and use new primary key to partition table)
+
+# 3NF (Third Normal Form) Rules
+-Rule 1 - Be in 2NF
+-Rule 2 - Has no transitive functional dependencies
