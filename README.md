@@ -6,3 +6,10 @@ Normalization rules divides larger tables into smaller tables and links them usi
 DataBase Normal Form
 - 1NF (First Normal Form)
 - 2NF (Sencond Nromal Form)
+- 3NF (Third Normal Form)
+- BCNF (Boyce-Codd Normal Form)
+- 4NF (Forth Normal Form)
+- 5NF (Fifth Normal Form)
+- 6NF (Sixth Normal Form)
+
+# 1NF (First Normal Form) Rules
