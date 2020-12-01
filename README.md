@@ -24,3 +24,7 @@ DataBase Normal Form
 # 3NF (Third Normal Form) Rules
 - Rule 1 - Be in 2NF
 - Rule 2 - Has no transitive functional dependencies
+
+# BCNF (Boyce-Codd Normal Form)
+- Even when a database is in 3rd Normal Form, still there would be anomalies resulted if it has more than one Cndidate Key
+Sometimes is BCNF is als referred as 3.5 Normal Form
