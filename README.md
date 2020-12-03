@@ -54,3 +54,6 @@ Normalization rules divides larger tables into smaller tables and links them usi
 # BCNF (Boyce-Codd Normal Form)
 - Even when a database is in 3rd Normal Form, still there would be anomalies resulted if it has more than one Cndidate Key
 Sometimes is BCNF is als referred as 3.5 Normal Form
+
+# Kent and Diehr quote
+"All attributes must dependent on the key(1NF0, the whole key(2NF), and nothing but the key(3NF), so help me Codd!"
