@@ -57,3 +57,8 @@ Sometimes is BCNF is als referred as 3.5 Normal Form
 
 # Kent and Diehr quote
 "All attributes must dependent on the key(1NF), the whole key(2NF), and nothing but the key(3NF), so help me Codd!"
+
+# How to compute with functional dependencies: Arnstrong's rules
+- reflexivity: if Y is part of X, then X-> Y (Email, interest -> interest)
+- augmentation: if X-> Y, then WX -> WY, if Email -> BirthYear, then Email, Interest -> BirthYear, Interest
+- transistivity: if X-> Y and Y-> Z then X-> Z. Email -> BirthYear, and BirthYear -> Salary then Email -> Salary
