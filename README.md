@@ -8,6 +8,9 @@ Normalization rules divides larger tables into smaller tables and links them usi
 - Update
 - Deletion
 
+# Functional Dependencies
+- Let X and Y be sets of attributes in R. Y is functionally dependent on X in R iff for each x ∈ RX there is precisely one y ∈ RY
+
 DataBase Normal Form
 - 1NF (First Normal Form)
 - 2NF (Sencond Nromal Form)
