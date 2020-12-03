@@ -28,6 +28,15 @@ Normalization rules divides larger tables into smaller tables and links them usi
 - 5NF (Fifth Normal Form)
 - 6NF (Sixth Normal Form)
 
+# Normal Forms:
+- NF2: non-first normal form
+- 1NF: R is in 1NF iff all domain values are atomic
+- 2NF: R is in 2NF iff R is in 1NF and every nonkey attribute is fully dependent on the key
+- 3NF: R is in 3NF iff R is in 2NF and every nonkeyss attribute is non-transistively dependent on the key
+- BCNF (Boyce-Codd Normal Form): R is in BCMF iff every determinant is a candidate key
+- Determinant: a set of attributes on which some other attribute is fully functionally dependent
+
+# Supplement
 # 1NF (First Normal Form) Rules
 - Each table cell should contain a single value
 - Each record needs to be unique
