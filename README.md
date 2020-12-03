@@ -11,6 +11,8 @@ Normalization rules divides larger tables into smaller tables and links them usi
 # Functional Dependencies
 - Let X and Y be sets of attributes in R. Y is functionally dependent on X in R iff for each x ∈ RX there is precisely one y ∈ RY
 
+# Full Functional Dependencies
+- Let X and Y be sets of attributes in R. Y is fully functional dependent on X in R iff Y is funcional dependent on X and Y is not functional dependent on any proper subset of X
 DataBase Normal Form
 - 1NF (First Normal Form)
 - 2NF (Sencond Nromal Form)
