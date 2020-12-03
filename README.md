@@ -56,4 +56,4 @@ Normalization rules divides larger tables into smaller tables and links them usi
 Sometimes is BCNF is als referred as 3.5 Normal Form
 
 # Kent and Diehr quote
-"All attributes must dependent on the key(1NF0, the whole key(2NF), and nothing but the key(3NF), so help me Codd!"
+"All attributes must dependent on the key(1NF), the whole key(2NF), and nothing but the key(3NF), so help me Codd!"
