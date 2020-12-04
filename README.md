@@ -62,3 +62,6 @@ Sometimes is BCNF is als referred as 3.5 Normal Form
 - reflexivity: if Y is part of X, then X-> Y (Email, interest -> interest)
 - augmentation: if X-> Y, then WX -> WY, if Email -> BirthYear, then Email, Interest -> BirthYear, Interest
 - transistivity: if X-> Y and Y-> Z then X-> Z. Email -> BirthYear, and BirthYear -> Salary then Email -> Salary
+# 3NF and BCNF
+- There does exist relations which can only be decomposed to 3NF, but not to BCNF, while being lossless and dependency preserving
+- It can only happen when the relation has overlapping keys
